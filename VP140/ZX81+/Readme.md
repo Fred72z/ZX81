@@ -4,7 +4,7 @@ La platine du ZX81+38 rev 1.6 doit être modifiée pour avoir ajouter de la mém
 
 Dans un premier temps, le circuit est assemblé sans les jacks K7 mais avec la sortie RCA (vidéo) et l'entrée USB (alimentation).
 
-Pour ajouter de la mémoire, la 62256 (32K) est remmplacée par une NVRAM DS1245 (128K). Le brochage du circuit est compatible avec l'ancienne RAM mais possède 4 broches supplémentaires. Les broches 31 et 32 doivent être reliées à Vcc tandis que la broche 2 est A16.
+Pour ajouter de la mémoire, la 62256 (32K) est remplacée par une NVRAM DS1245 (128K). Le brochage du circuit est compatible avec l'ancienne RAM mais possède 4 broches supplémentaires. Les broches 31 et 32 doivent être reliées à Vcc tandis que la broche 2 est A16.
 
 ![Modif_DS1245](./modif_DS1245.jpg?raw=true "Optional Title")
 
