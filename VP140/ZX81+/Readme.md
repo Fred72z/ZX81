@@ -27,7 +27,7 @@ Le cavalier se trouve sous le pcb. La connexion 16K est établie par une piste q
 ![modif_ZX81](./modif_ZX81.jpg?raw=true "Optional Title")
 
 
-Le fichier ROM ZX81_48K.bin a été modifié afin de commencer le test mémoire plus haut, il n'est donc pas nécessaire de modifier RAMTOP.
+Le fichier ROM ZX81_48K.bin prévu pour une 27C256 (32K) a été modifié afin de commencer le test mémoire plus haut, il n'est donc pas nécessaire de modifier RAMTOP.
 
 
 Il reste maintenant à vérifier que le ZX81 démarre normalement.
