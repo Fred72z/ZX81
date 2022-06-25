@@ -28,6 +28,9 @@ Le cavalier se trouve sous le pcb. La connexion 16K est établie par une piste q
 
 
 Le fichier ROM ZX81_48K.bin prévu pour une 27C256 (32K) a été modifié afin de commencer le test mémoire plus haut, il n'est donc pas nécessaire de modifier RAMTOP.
+Remarque: RAMTOP est défini à FF00h. Les derniers 128 octets de l'espace adressable (FF80-FFFF) sont réservés aux périphériques.
+
+RAMTOP : PRINT PEEK 16388+256*PEEK 16389 donne 65280
 
 
 Il reste maintenant à vérifier que le ZX81 démarre normalement.
