@@ -1,6 +1,6 @@
-# ZX81+38
+# Modification du ZX81+38
 
-La platine du ZX81+38 rev 1.6 doit être modifiée pour avoir ajouter de la mémoire.
+La platine du ZX81+38 rev 1.6 doit être modifiée pour ajouter de la mémoire.
 
 Dans un premier temps, le circuit est assemblé sans les jacks K7 mais avec la sortie RCA (vidéo) et l'entrée USB (alimentation).
 
