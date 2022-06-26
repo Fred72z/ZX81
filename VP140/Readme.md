@@ -11,7 +11,7 @@ Il utilise un minitel 1B dont il reprend le clavier, la platine d'alimentation e
 Le montage est construit autour d'un clone du ZX81, le projet ZX81+38 qui utilise des circuits logiques standards à la place de l'ULA.
 
 
-Le ZX81+38 est montée sur une platine qui reprend les mêmes dimensions que la carte mère du minitel afin de s'intégrer parfaitement dans le boitier.
+Le ZX81+38 est monté sur une platine qui reprend les mêmes dimensions que la carte mère du minitel afin de s'intégrer parfaitement dans le boitier.
 
 ![Intérieur du VP140](./VP140_2.JPG?raw=true "Optional Title")
 
@@ -21,10 +21,11 @@ Par manque de place, quelques composants sont montés sous le pcb.
 ![Carte principale](./VP140_4.JPG?raw=true "Optional Title")
 
 
-Les performances de l'engin sont celles d'un ZX81 auquelles il ajoute:
+Les performances (modestes) de l'engin sont celles d'un ZX81 auquelles il ajoute:
 
 -48K de mémoire RAM
--256Ko de mémoire ROM disponibles sous forme de cartouche placé aux adresses [2000h-3FFFh] par banque de 8Ko.
+-8Ko mémoire ROM (ZX81)
+-256Ko de mémoire ROM placée aux adresses [2000h-3FFFh] soit 32 banques de 8Ko (cartouche).
 -Circuit sonore YMZ284 comptible XON
 -UART 9600 bauds RS232
 -UART 38400 bauds USB
