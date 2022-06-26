@@ -24,12 +24,20 @@ Par manque de place, quelques composants sont montés sous le pcb.
 Les performances (modestes) de l'engin sont celles d'un ZX81 auquelles il ajoute:
 
 -48K de mémoire RAM
+
 -8Ko mémoire ROM (ZX81)
+
 -256Ko de mémoire ROM placée aux adresses [2000h-3FFFh] soit 32 banques de 8Ko (cartouche).
--Circuit sonore YMZ284 comptible XON
+
+-Circuit sonore YMZ284 compatible ZonX
+
 -UART 9600 bauds RS232
+
 -UART 38400 bauds USB
+
 -Joystick type videopac
+
 -Clavier mécanique
+
 -Ecran N/B
 
