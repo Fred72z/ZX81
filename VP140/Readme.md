@@ -10,6 +10,7 @@ Il utilise un minitel 1B dont il reprend le clavier, la platine d'alimentation e
 
 Le montage est construit autour d'un clone du ZX81, le projet ZX81+38 qui utilise des circuits logiques standards à la place de l'ULA.
 
+[ZX81+38 ver 1.6](https://revspace.nl/ZX81plus38_simple_to_build_ZX-81_clone)
 
 Le ZX81+38 est monté sur une platine qui reprend les mêmes dimensions que la carte mère du minitel afin de s'intégrer parfaitement dans le boitier.
 
