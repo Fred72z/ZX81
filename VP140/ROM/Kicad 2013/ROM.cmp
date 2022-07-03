@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 28/11/2021 18:35:46
+
+BeginCmp
+TimeStamp = /61A3BA1A;
+Reference = K1;
+ValeurCmp = RS232;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /61A3B8AB;
+Reference = P1;
+ValeurCmp = EXPANSION;
+IdModule  = PIN_ARRAY_18X2_MALE;
+EndCmp
+
+BeginCmp
+TimeStamp = /61A13937;
+Reference = P2;
+ValeurCmp = CARTOUCHE;
+IdModule  = EDGE_Connector_36p;
+EndCmp
+
+BeginCmp
+TimeStamp = /61A3BA33;
+Reference = P3;
+ValeurCmp = SPEAKER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+EndListe
