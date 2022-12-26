@@ -36,7 +36,7 @@ RAMTOP : PRINT PEEK 16388+256*PEEK 16389 donne 65280
 Il reste maintenant à vérifier que le ZX81 démarre normalement.
 
 ## Ver 1.2
-Avant de mettre la platine en place sur le circuit principal du VP140 il faut enlever la résistance R43 (RAMCS).
+Avant de mettre la platine en place sur le circuit principal du VP140 il faut enlever la résistance R43 (sélection RAMCS) placée juste au dessus du Z80.
 
 
 
