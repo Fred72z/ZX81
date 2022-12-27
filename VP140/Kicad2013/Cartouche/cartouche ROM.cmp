@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26/11/2021 09:16:43
+
+BeginCmp
+TimeStamp = /61A095E4;
+Reference = C1;
+ValeurCmp = 1µF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /619F5E9D;
+Reference = P1;
+ValeurCmp = CONN_18X2;
+IdModule  = cartouche_ZX81;
+EndCmp
+
+BeginCmp
+TimeStamp = /619F973E;
+Reference = U1;
+ValeurCmp = 27C020;
+IdModule  = DIP-32__600_ELL;
+EndCmp
+
+EndListe
