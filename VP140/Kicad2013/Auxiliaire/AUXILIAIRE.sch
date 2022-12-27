@@ -29,15 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ROM-cache
+LIBS:AUXILIAIRE-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Platine auxiliaire VP140"
 Date "2 dec 2021"
-Rev ""
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
