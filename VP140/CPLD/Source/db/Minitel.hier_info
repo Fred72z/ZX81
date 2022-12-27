@@ -1,0 +1,662 @@
+|Minitel
+KBD0 <= Clavier:inst.KBD0
+nRESET => Clavier:inst.nCLR
+nRESET => 74273:inst12.CLRN
+KB_LATCH => Clavier:inst.LATCH
+KB_CLK => Clavier:inst.CLK
+KB_DATA => Clavier:inst.SRIN
+A8 => Clavier:inst.A8
+A8 => inst6.IN6
+A9 => Clavier:inst.A9
+A9 => inst6.IN4
+A10 => Clavier:inst.A10
+A10 => inst6.IN5
+A11 => Clavier:inst.A11
+A11 => inst6.IN7
+A12 => Clavier:inst.A12
+A12 => inst6.IN3
+A13 => Clavier:inst.A13
+A13 => inst6.IN1
+A13 => inst3.IN0
+A13 => inst25.IN0
+A14 => Clavier:inst.A14
+A14 => inst6.IN2
+A14 => inst27.IN1
+A14 => inst25.IN1
+A15 => Clavier:inst.A15
+A15 => inst6.IN0
+A15 => inst14.IN0
+KBD1 <= Clavier:inst.KBD1
+KBD2 <= Clavier:inst.KBD2
+KBD3 <= Clavier:inst.KBD3
+CLK_YMZ <= div_clock:inst4.CLK_DIV2
+CLK => div_clock:inst4.CLK
+CLK => inst8.IN1
+KBD4 <= Clavier:inst.KBD4
+nA7 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+A7 => inst9.IN0
+A7 => decodage:inst7.A7
+nYMZ <= decodage:inst7.nYMZ
+A6 => decodage:inst7.A6
+A5 => decodage:inst7.A5
+A4 => decodage:inst7.A4
+A3 => decodage:inst7.A3
+A2 => decodage:inst7.A2
+A1 => decodage:inst7.A1
+A0 => decodage:inst7.A0
+nIORQ => decodage:inst7.nIORQ
+nMREQ => decodage:inst7.nMREQ
+nMREQ => inst13.IN0
+nWR => decodage:inst7.nWR
+NV_A13 <= 74273:inst12.Q1
+D1 => 74273:inst12.D2
+D2 => 74273:inst12.D3
+D0 => 74273:inst12.D1
+D3 => 74273:inst12.D4
+D5 => 74273:inst12.D6
+D4 => 74273:inst12.D5
+NV_A14 <= 74273:inst12.Q2
+NV_A15 <= 74273:inst12.Q3
+NV_A16 <= 74273:inst12.Q4
+nCS_ROM <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+nM1 => inst14.IN1
+nRFSH => inst13.IN1
+nACIA1 <= decodage:inst7.nACIA1
+nACIA0 <= decodage:inst7.nACIA0
+CLK_ACIA0 <= div_clock:inst5.CLK_DIV2
+CLK_BAUD => div_clock:inst5.CLK
+CLK_ACIA1 <= div_clock:inst5.CLK_DIV8
+NV_A17 <= 74273:inst12.Q5
+RAMCS <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst
+KBD0 <= KBD0.DB_MAX_OUTPUT_PORT_TYPE
+A9 => KB_Reg:inst1.nOE
+nCLR => KB_Reg:inst1.nCLR
+nCLR => KB_Reg:inst.nCLR
+nCLR => KB_Reg:inst2.nCLR
+nCLR => KB_Reg:inst4.nCLR
+nCLR => KB_Reg:inst3.nCLR
+nCLR => KB_Reg:inst5.nCLR
+nCLR => KB_Reg:inst7.nCLR
+nCLR => KB_Reg:inst6.nCLR
+LATCH => KB_Reg:inst1.LATCH
+LATCH => KB_Reg:inst.LATCH
+LATCH => KB_Reg:inst2.LATCH
+LATCH => KB_Reg:inst4.LATCH
+LATCH => KB_Reg:inst3.LATCH
+LATCH => KB_Reg:inst5.LATCH
+LATCH => KB_Reg:inst7.LATCH
+LATCH => KB_Reg:inst6.LATCH
+A8 => KB_Reg:inst.nOE
+SRIN => KB_Reg:inst.SR_IN
+CLK => KB_Reg:inst.CLK
+CLK => KB_Reg:inst1.CLK
+CLK => KB_Reg:inst2.CLK
+CLK => KB_Reg:inst3.CLK
+CLK => KB_Reg:inst4.CLK
+CLK => KB_Reg:inst5.CLK
+CLK => KB_Reg:inst6.CLK
+CLK => KB_Reg:inst7.CLK
+A10 => KB_Reg:inst2.nOE
+A12 => KB_Reg:inst4.nOE
+A11 => KB_Reg:inst3.nOE
+A13 => KB_Reg:inst5.nOE
+A15 => KB_Reg:inst7.nOE
+A14 => KB_Reg:inst6.nOE
+KBD1 <= KBD1.DB_MAX_OUTPUT_PORT_TYPE
+KBD2 <= KBD2.DB_MAX_OUTPUT_PORT_TYPE
+KBD3 <= KBD3.DB_MAX_OUTPUT_PORT_TYPE
+KBD4 <= KBD4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst1
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst1|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst2
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst2|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst4
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst4|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst3
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst3|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst5
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst5|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst7
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst7|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|Clavier:inst|KB_Reg:inst6
+SR_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nCLR => inst4.ACLR
+nCLR => inst3.ACLR
+nCLR => inst2.ACLR
+nCLR => inst1.ACLR
+nCLR => inst.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLK => inst.CLK
+SR_IN => inst.DATAIN
+KB0 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+nOE => 74374:inst18.OEN
+LATCH => 74374:inst18.CLK
+KB1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+KB2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+KB3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+KB4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|Clavier:inst|KB_Reg:inst6|74374:inst18
+Q8 <= 47.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 2.IN0
+Q7 <= 46.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 19.DATAIN
+Q6 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 18.DATAIN
+Q5 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 17.DATAIN
+Q4 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q3 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 15.DATAIN
+Q2 <= 41.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 14.DATAIN
+Q1 <= 40.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 13.DATAIN
+
+
+|Minitel|div_clock:inst4
+CLK_DIV2 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst8.CLK
+CLK_DIV4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK_DIV8 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|decodage:inst7
+AH => nACIA0.IN1
+A7 => Equal0.IN8
+A7 => Equal1.IN8
+A7 => Equal2.IN8
+A7 => Equal3.IN8
+A7 => LessThan0.IN9
+A7 => LessThan1.IN9
+A7 => LessThan2.IN9
+A7 => LessThan3.IN9
+A7 => Equal4.IN8
+A7 => LessThan4.IN9
+A7 => LessThan5.IN9
+A6 => Equal0.IN9
+A6 => Equal1.IN9
+A6 => Equal2.IN9
+A6 => Equal3.IN9
+A6 => LessThan0.IN10
+A6 => LessThan1.IN10
+A6 => LessThan2.IN10
+A6 => LessThan3.IN10
+A6 => Equal4.IN9
+A6 => LessThan4.IN10
+A6 => LessThan5.IN10
+A5 => Equal0.IN10
+A5 => Equal1.IN10
+A5 => Equal2.IN10
+A5 => Equal3.IN10
+A5 => LessThan0.IN11
+A5 => LessThan1.IN11
+A5 => LessThan2.IN11
+A5 => LessThan3.IN11
+A5 => Equal4.IN10
+A5 => LessThan4.IN11
+A5 => LessThan5.IN11
+A4 => Equal0.IN11
+A4 => Equal1.IN11
+A4 => Equal2.IN11
+A4 => Equal3.IN11
+A4 => LessThan0.IN12
+A4 => LessThan1.IN12
+A4 => LessThan2.IN12
+A4 => LessThan3.IN12
+A4 => Equal4.IN11
+A4 => LessThan4.IN12
+A4 => LessThan5.IN12
+A3 => Equal0.IN12
+A3 => Equal1.IN12
+A3 => Equal2.IN12
+A3 => Equal3.IN12
+A3 => LessThan0.IN13
+A3 => LessThan1.IN13
+A3 => LessThan2.IN13
+A3 => LessThan3.IN13
+A3 => Equal4.IN12
+A3 => LessThan4.IN13
+A3 => LessThan5.IN13
+A2 => Equal0.IN13
+A2 => Equal1.IN13
+A2 => Equal2.IN13
+A2 => Equal3.IN13
+A2 => LessThan0.IN14
+A2 => LessThan1.IN14
+A2 => LessThan2.IN14
+A2 => LessThan3.IN14
+A2 => Equal4.IN13
+A2 => LessThan4.IN14
+A2 => LessThan5.IN14
+A1 => Equal0.IN14
+A1 => Equal1.IN14
+A1 => Equal2.IN14
+A1 => Equal3.IN14
+A1 => LessThan0.IN15
+A1 => LessThan1.IN15
+A1 => LessThan2.IN15
+A1 => LessThan3.IN15
+A1 => Equal4.IN14
+A1 => LessThan4.IN15
+A1 => LessThan5.IN15
+A0 => Equal0.IN15
+A0 => Equal1.IN15
+A0 => Equal2.IN15
+A0 => Equal3.IN15
+A0 => LessThan0.IN16
+A0 => LessThan1.IN16
+A0 => LessThan2.IN16
+A0 => LessThan3.IN16
+A0 => Equal4.IN15
+A0 => LessThan4.IN16
+A0 => LessThan5.IN16
+nIORQ => nYMZ.IN0
+nMREQ => nACIA0.IN0
+nWR => LT273.IN0
+nYMZ <= nYMZ.DB_MAX_OUTPUT_PORT_TYPE
+nACIA0 <= nACIA0.DB_MAX_OUTPUT_PORT_TYPE
+nACIA1 <= nACIA1.DB_MAX_OUTPUT_PORT_TYPE
+LT273 <= LT273.DB_MAX_OUTPUT_PORT_TYPE
+HIGH <= HIGH.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Minitel|74273:inst12
+Q1 <= 19.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 19.ACLR
+CLRN => 18.ACLR
+CLRN => 17.ACLR
+CLRN => 16.ACLR
+CLRN => 15.ACLR
+CLRN => 14.ACLR
+CLRN => 13.ACLR
+CLRN => 12.ACLR
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+CLK => 12.CLK
+D1 => 19.DATAIN
+Q2 <= 18.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 18.DATAIN
+Q3 <= 17.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 17.DATAIN
+Q4 <= 16.DB_MAX_OUTPUT_PORT_TYPE
+D4 => 16.DATAIN
+Q5 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => 15.DATAIN
+Q6 <= 14.DB_MAX_OUTPUT_PORT_TYPE
+D6 => 14.DATAIN
+Q7 <= 13.DB_MAX_OUTPUT_PORT_TYPE
+D7 => 13.DATAIN
+Q8 <= 12.DB_MAX_OUTPUT_PORT_TYPE
+D8 => 12.DATAIN
+
+
+|Minitel|div_clock:inst5
+CLK_DIV2 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst8.CLK
+CLK_DIV4 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+CLK_DIV8 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

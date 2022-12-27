@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'KB_CLK'
+Slack : -9.000
+TNS   : -351.000
+
+Type  : Setup 'CLK'
+Slack : -9.000
+TNS   : -9.000
+
+Type  : Setup 'div_clock:inst5|inst9'
+Slack : -9.000
+TNS   : -9.000
+
+Type  : Setup 'KB_LATCH'
+Slack : -4.000
+TNS   : -160.000
+
+Type  : Setup 'div_clock:inst5|inst8'
+Slack : -1.500
+TNS   : -1.500
+
+Type  : Setup 'CLK_BAUD'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Hold 'CLK_BAUD'
+Slack : -3.500
+TNS   : -3.500
+
+Type  : Hold 'div_clock:inst5|inst8'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'KB_LATCH'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Hold 'CLK'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Hold 'KB_CLK'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Hold 'div_clock:inst5|inst9'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'KB_CLK'
+Slack : -3.500
+TNS   : -280.000
+
+Type  : Minimum Pulse Width 'KB_LATCH'
+Slack : -3.500
+TNS   : -280.000
+
+Type  : Minimum Pulse Width 'CLK'
+Slack : -3.500
+TNS   : -49.000
+
+Type  : Minimum Pulse Width 'A0'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A1'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A10'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A11'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A12'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A13'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A14'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A15'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A2'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A3'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A4'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A5'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A6'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A7'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A8'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'A9'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'nMREQ'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'nWR'
+Slack : -3.500
+TNS   : -42.000
+
+Type  : Minimum Pulse Width 'CLK_BAUD'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'div_clock:inst5|inst8'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'div_clock:inst5|inst9'
+Slack : -3.500
+TNS   : -7.000
+
+------------------------------------------------------------
