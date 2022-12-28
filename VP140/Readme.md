@@ -51,3 +51,9 @@ Le circuit principal a été un peu modifié :
 - La vitesse de l'UART (USB) a été réduite à 19200 bauds
 - Les caractères auxiliaires (en orange) du clavier ont été mappés vers le clavier du ZX. Il s'agit de la ligne au dessus des lettres avec les caractères de ponctuations (' , . ' ; - : ?). L'utilisation de ces touches avec la touche Shift enfoncée donne les caractères (< > + = * /). De même pour les parenthèses avec les touches 8 et 9. La touche ESC donne le mode GRAPHIC. Et la répétition des touches s'active ou se désactive par la touche Répétition.
 
+
+# Périphériques
+
+YMZ284 : Le PSG (compatible AY3-8910) est placé aux adresses classique de l'extension ZonX ($0F, $1F, $CF et $DF).
+
+
