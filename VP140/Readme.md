@@ -49,5 +49,5 @@ Le circuit principal a été un peu modifié :
 - La désactivation de la RAM du ZX81+38 ne se fait plus par un transistor pilotant RAMCS mais par la commande directe de RAMCS par le CPLD.
 - Le circuit vidéo comporte une inhibition supplémentaire évitant l'apparition d'une bande verticale blanche sur l'écran durant le mode FAST
 - La vitesse de l'UART (USB) a été réduite à 19200 bauds
-- Les caractères auxiliaires (en orange) du clavier ont été mappé vers le clavier du ZX. Il s'agit de la ligne au dessus des lettres avec les caractères de ponctuations (' , . ' ; - : ?). L'utilisation de ces touches avec la touche Shift enfoncée donne les caractères (< > + = * /). De même pour les parenthèses avec les touches 8 et 9. La touche ESC donne le mode GRAPHIC. Et la répétition des touches s'active ou se désactive par la touche Répétition.
+- Les caractères auxiliaires (en orange) du clavier ont été mappés vers le clavier du ZX. Il s'agit de la ligne au dessus des lettres avec les caractères de ponctuations (' , . ' ; - : ?). L'utilisation de ces touches avec la touche Shift enfoncée donne les caractères (< > + = * /). De même pour les parenthèses avec les touches 8 et 9. La touche ESC donne le mode GRAPHIC. Et la répétition des touches s'active ou se désactive par la touche Répétition.
 
