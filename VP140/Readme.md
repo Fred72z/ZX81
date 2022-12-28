@@ -54,11 +54,18 @@ Le circuit principal a été un peu modifié :
 
 # Périphériques
 
-PSG : YMZ284 (compatible AY3-8910) placé aux adresses classiques de l'extension ZonX ($0F, $1F, $CF et $DF).
+PSG : YMZ284 (compatible AY3-8910) placé aux adresses classiques de l'extension ZonX (I/O $0F, $1F, $CF et $DF).
 $0F, $1F = DATA
 $CF, $DF = REG
 
-ACIA0 : MC6850 @ 
+ACIA0 : MC6850 @ 19200 bauds placé en mémoire aux adresses $FFF0-$FFF3
+$FFF0 : Control/Status
+$FFF2 : TDR/RDR
 
+ACIA1 : MC6850 @  9600 bauds placé en mémoire aux adresses $FFF8-$FFFB
+$FFF8 : Control/Status
+$FFFA : TDR/RDR
 
-ACIA1 : MC6850 @ 
+Selection ROM : Permet de sélectionner la banque ROM disponible en [$2000-$3FFF]
+$FFFF : bits [4-0]= N° de banque ([0 à 31], bit 5= ROM/RAM [0:ROM, 1:RAM]
+
