@@ -54,6 +54,11 @@ Le circuit principal a été un peu modifié :
 
 # Périphériques
 
-YMZ284 : Le PSG (compatible AY3-8910) est placé aux adresses classique de l'extension ZonX ($0F, $1F, $CF et $DF).
+PSG : YMZ284 (compatible AY3-8910) placé aux adresses classiques de l'extension ZonX ($0F, $1F, $CF et $DF).
+$0F, $1F = DATA
+$CF, $DF = REG
+
+ACIA0 : MC6850 @ 
 
 
+ACIA1 : MC6850 @ 
