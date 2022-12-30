@@ -35,6 +35,10 @@ RAMTOP : PRINT PEEK 16388+256*PEEK 16389 donne 65280
 
 Il reste maintenant à vérifier que le ZX81 démarre normalement.
 
+Le répertoire ROM contient 2 fichiers binaires modifiés pour la version 48K (initalisation de RAMTOP):
+Zx81a : version normale
+Zx81x2 : version améliorée de la ROM (2x plus rapide) par zsolt ( .
+
 ## Ver 1.2
 Avant de mettre la platine en place sur le circuit principal du VP140 il faut enlever la résistance R43 (sélection RAMCS) placée juste au dessus du Z80.
 
