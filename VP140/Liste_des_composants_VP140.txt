@@ -21,8 +21,8 @@ Platine principale
 | C17        100nF       
 | C18        220µF      
 | C19        47nF        
-| D5         1N4148      
-| D6         1N4148      
+| D1         1N4148      
+| D2         1N4148      
 | J1         USB type B        
 | K2         barette 3 contacts pas 2.54mm  90°   
 | OSC1       Ocillateur 4.9152MHz dip 8
@@ -46,7 +46,8 @@ Platine principale
 | R11        2.2k        
 | R12        2.2k        
 | R13        1k          
-| R14        10          
+| R14        10         
+| RR1        Réseau SIL 22k  (5 broches)
 | RV1        Ajustable 500 ohms
 | U1         EPM7128S programmé     
 | U2         7812        
