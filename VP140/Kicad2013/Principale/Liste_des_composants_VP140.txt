@@ -1,0 +1,80 @@
+﻿eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 26/12/2022 20:17:14
+
+Platine principale
+
+| C1         10µF       
+| C2         10nF        
+| C3         1nF         
+| C4         100µF      
+| C5         10µF       
+| C6         100µF      
+| C7         100nF       
+| C8         22pF        
+| C9         22pF        
+| C10        1µF        
+| C11        1µF        
+| C12        1µF        
+| C13        1µF        
+| C14        10nF        
+| C15        2.2µF      
+| C16        10µF       
+| C17        100nF       
+| C18        220µF      
+| C19        47nF        
+| D1         1N4148      
+| D2         1N4148      
+| J1         USB type B        
+| K2         barette 3 contacts pas 2.54mm  90°   
+| OSC1       Ocillateur 4.9152MHz dip 8
+| P1         barette 5 contacts pas 2.54mm
+| P2         barette 23 contacts pas 2.54mm
+| P3         barette 23 contacts pas 2.54mm     
+| P4         DIN_6       
+| P5         Connecteur video du MINITEL
+| P7         Connecteur clavier Minitel       
+| P9         barette 6 contacts pas 2.54mm
+| R1         4.7k        
+| R2         100         
+| R3         56k         
+| R4         10k         
+| R5         10k         
+| R6         120         
+| R7         120         
+| R8         120         
+| R9         120         
+| R10        100k        
+| R11        2.2k        
+| R12        2.2k        
+| R13        1k          
+| R14        10         
+| RR1        Réseau SIL 22k  (5 broches)
+| RV1        Ajustable 500 ohms
+| U1         EPM7128S programmé     
+| U2         7812        
+| U3         74LS221     
+| U4         74LS38      
+| U5         7805        
+| U6         6850        
+| U7         6850        
+| U8         CH340G      
+| U9         MAX232      
+| U10        YMZ284      
+| U11        LM386       
+| U12        16F876A programmé     
+| U13        74LS156     
+| U14        4051        
+| X1         Quartz 12MHz HC49    
+
+
+Platine auxiliaire
+
+| P2	     connecteur encartable 2x18 broches 90°
+| P3	     barette 2 contacts pas 2.54mm
+| K1	     barette 3 contacts pas 2.54mm
+| 	     haut parleur 50mm 25 ohms
+
+
+Cartouche
+
+| U1	     W27E020 ou W27C020 (EEPROM 256kx8)
+| C1	     Condensateur 100nF CMS 1206
