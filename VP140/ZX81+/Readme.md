@@ -42,6 +42,10 @@ Le répertoire ROM contient 2 fichiers binaires modifiés pour la version 48K (i
 ## Ver 1.2
 Avant de mettre la platine en place sur le circuit principal du VP140 il faut enlever la résistance R43 (sélection RAMCS) placée juste au dessus du Z80.
 
+## Ver 1.3
+La broche A13 de l'EPROM (27C128) peut être détournée vers le point P11 du circuit principal afin de disposer de 2 versions de la ROM ou 2 langages.
+Le choix de la banque mémoire est fait par le clavier avec la touche Retour. Une led indique la partie active de la ROM (allumée => A13=1). Cette valeur est enregistrée dans la mémoire EEPROM du PIC.
+Un appui prolongé sur la touche Retour change l'état de A13 puis provoque un reset du ZX.
 
 
 
