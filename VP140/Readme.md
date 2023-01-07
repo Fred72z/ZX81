@@ -36,20 +36,11 @@ Les performances (modestes) de l'engin sont celles d'un ZX81 auquelles il ajoute
 -UART 9600 bauds RS232
 
 -UART 19200 bauds USB (ver 1.2)
-
 -Joystick type videopac
 
 -Clavier mécanique
 
 -Ecran N/B
-
-## Ver 1.2
-
-Le circuit principal a été un peu modifié :
-- La désactivation de la RAM du ZX81+38 ne se fait plus par un transistor pilotant RAMCS mais par la commande directe de RAMCS par le CPLD.
-- Le circuit vidéo comporte une inhibition supplémentaire évitant l'apparition d'une bande verticale blanche sur l'écran durant le mode FAST
-- La vitesse de l'UART (USB) a été réduite à 19200 bauds
-- Les caractères auxiliaires (en orange) du clavier ont été mappés vers le clavier du ZX. Il s'agit de la ligne au dessus des lettres avec les caractères de ponctuations (' , . ' ; - : ?). L'utilisation de ces touches avec la touche Shift enfoncée donne les caractères (< > + = * /). De même pour les parenthèses avec les touches 8 et 9. La touche ESC donne le mode GRAPHIC. Et la répétition des touches s'active ou se désactive par la touche Répétition.
 
 
 # Périphériques
@@ -70,3 +61,20 @@ Sélection ROM : Permet de sélectionner la banque ROM disponible en [$2000-$3FF
 - $FFFF : bits [4-0]= N° de banque ([0 à 31], bit 5= ROM/RAM [0:ROM, 1:RAM]
 
 à la mise sous tension, C'est la ROM0 qui est sélectionnée.
+
+## Ver 1.2
+
+Le circuit principal a été un peu modifié :
+- La désactivation de la RAM du ZX81+38 ne se fait plus par un transistor pilotant RAMCS mais par la commande directe de RAMCS par le CPLD.
+- Le circuit vidéo comporte une inhibition supplémentaire évitant l'apparition d'une bande verticale blanche sur l'écran durant le mode FAST
+- La vitesse de l'UART (USB) a été réduite à 19200 bauds
+- Les caractères auxiliaires (en orange) du clavier ont été mappés vers le clavier du ZX. Il s'agit de la ligne au dessus des lettres avec les caractères de ponctuations (' , . ' ; - : ?). L'utilisation de ces touches avec la touche Shift enfoncée donne les caractères (< > + = * /). De même pour les parenthèses avec les touches 8 et 9. La touche ESC donne le mode GRAPHIC. Et la répétition des touches s'active ou se désactive par la touche Répétition.
+
+## Ver 1.3
+
+Le circuit principal a été un peu modifié :
+- Ajout d'un réseau de résistances de pull_down sur les entrées du joystick pour éviter des actions intempestives.
+- Léger changement dans l'affectation des touches du clavier
+- Ajout d'une 2ème led pour commuter la ROM avec la touche Retour
+
+
