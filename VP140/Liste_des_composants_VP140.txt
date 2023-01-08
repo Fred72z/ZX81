@@ -21,8 +21,8 @@ Platine principale
 | C17        100nF       
 | C18        220µF      
 | C19        47nF        
-| D1         1N4148      
-| D2         1N4148      
+| D5         1N4148      
+| D6         1N4148      
 | J1         USB type B        
 | K2         barette 3 contacts pas 2.54mm  90°   
 | OSC1       Ocillateur 4.9152MHz dip 8
@@ -33,7 +33,7 @@ Platine principale
 | P5         Connecteur video du MINITEL
 | P7         Connecteur clavier Minitel       
 | P9         barette 6 contacts pas 2.54mm
-| R1         4.7k        
+| R1         1.5k à 4.7k (à ajuster en fonction du haut parleur pour obtenir un volume correct)
 | R2         100         
 | R3         56k         
 | R4         10k         
@@ -46,8 +46,7 @@ Platine principale
 | R11        2.2k        
 | R12        2.2k        
 | R13        1k          
-| R14        10         
-| RR1        Réseau SIL 22k  (5 broches)
+| R14        10          
 | RV1        Ajustable 500 ohms
 | U1         EPM7128S programmé     
 | U2         7812        
