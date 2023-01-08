@@ -3,7 +3,8 @@
 Le VP140 est un terminal de type minitel renfermant une carte mère de ZX81.
 C'est une copie un peu améliorée du VP100 construit au début des années 80 par MAGECO.
 
-[Edit 27/12/2022]: Les documents sont désormais en version 1.2. Voir à la fin pour les détails des modifications.
+[Edit 27/12/2022]: Les documents sont désormais en version 1.2.
+[Edit 08/01/2023]: Les documents sont désormais en version 1.3. Voir à la fin pour les détails des modifications. C'est la dernière version. Tout est désormais fonctionnel.
 
 ![VP140](./VP140_1.JPG?raw=true "Optional Title")
 
