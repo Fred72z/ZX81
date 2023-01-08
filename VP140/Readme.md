@@ -76,5 +76,5 @@ Le circuit principal a été un peu modifié :
 - Ajout d'un réseau de résistances de pull_down sur les entrées du joystick pour éviter des actions intempestives.
 - Léger changement dans l'affectation des touches du clavier
 - Ajout d'une 2ème led pour commuter la ROM avec la touche Retour
-
+- Petite correction du programme du CPLD (Erreur dans la commande des N° de banque de la cartouche).
 
