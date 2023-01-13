@@ -22,7 +22,7 @@ Il ne reste plus qu'à retourner le circuit imprimé et souder le fil sur la bro
 ![ZX81+38_Back](./ZX81_back.jpg?raw=true "Optional Title")
 
 Il faut ensuite modifier le cavalier JP12 pour le mettre sur 32K. Cela permet de connecter la ligne A14 à la RAM.
-Le cavalier se trouve sous le pcb. La connexion 16K est établie par une piste qu'il faut couper au cutter (attention, il y a une petite piste reliée du plan de masse directement sur le point central qu'il faut couper également) avant de mettre un petit morceau de fil pour relier les 2 autres broches (liaison en jaune).
+Le cavalier se trouve sous le pcb. La connexion 16K est établie par une piste qu'il faut couper au cutter avant de mettre un petit morceau de fil pour relier les 2 autres broches (liaison en jaune).
 
 ![modif_ZX81](./modif_ZX81.jpg?raw=true "Optional Title")
 
