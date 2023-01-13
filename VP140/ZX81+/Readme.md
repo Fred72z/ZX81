@@ -24,7 +24,6 @@ Il ne reste plus qu'à retourner le circuit imprimé et souder le fil sur la bro
 Il faut ensuite modifier le cavalier JP12 pour le mettre sur 32K. Cela permet de connecter la ligne A14 à la RAM.
 Le cavalier se trouve sous le pcb. La connexion 16K est établie par une piste qu'il faut couper au cutter avant de mettre un petit morceau de fil pour relier les 2 autres broches (liaison en jaune).
 
-![modif_ZX81](./modif_ZX81.jpg?raw=true "Optional Title")
 
 
 Le fichier ROM ZX81_48K.bin prévu pour une 27C256 (32K) a été modifié afin de commencer le test mémoire plus haut, il n'est donc pas nécessaire de modifier RAMTOP.
