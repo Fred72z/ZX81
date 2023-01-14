@@ -5,5 +5,5 @@ Les cartouches ROM ont une capacité de 256Ko (27c020 ou mieux W27E020). Elles p
 # Cartouches N1
 Cette première cartouche propose 18 programmes de jeux.
 
-![Cartouche N1](./Cartouches/menu_N1.jpg?raw=true "Optional Title")
+![Cartouche N1](./menu_N1.jpg?raw=true "Optional Title")
 
