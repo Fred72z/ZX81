@@ -66,7 +66,7 @@ ACIA1 : MC6850 @  9600 bauds placé en mémoire aux adresses $FFF8-$FFFB
 Sélection ROM : Permet de sélectionner la banque ROM disponible en [$2000-$3FFF]
 - $FFFF : bits [4-0]= N° de banque ([0 à 31], bit 5= ROM/RAM [0:ROM, 1:RAM]
 
-à la mise sous tension, C'est la ROM0 qui est sélectionnée.
+à la mise sous tension, la ROM0 qui est sélectionnée.
 
 ## Ver 1.2
 
