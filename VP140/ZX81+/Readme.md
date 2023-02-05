@@ -1,6 +1,6 @@
 # Modification du ZX81+38
 
-Les modifications décrites ici s'appliquent uniquement sur la version 1.6 du ZX81+38. En effet les version 1.7 et supérieures sont différentes au niveau de JP1 et JP3.
+Les modifications décrites ici s'appliquent uniquement à la version 1.6 du ZX81+38. En effet les version 1.7 et supérieures sont différentes au niveau de JP1 et JP3.
 
 La platine du ZX81+38 rev 1.6 doit être modifiée pour ajouter de la mémoire.
 
