@@ -22,3 +22,9 @@ Cette troisième cartouche propose un Juke-box avec 9 musiques du cpc. La fréqu
 
 ![Cartouche N3](./Menu_N3.jpg?raw=true "Optional Title")
 
+
+# Cartouche N4
+Idem cartouche N3 avec d'autres musiques.
+
+![Cartouche N4](./menu_N4.jpg?raw=true "Optional Title")
+
