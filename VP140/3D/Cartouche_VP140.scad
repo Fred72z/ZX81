@@ -2,8 +2,9 @@ $fn=50;
 
 
 
-*partie_inferieure();
-partie_superieure();
+partie_inferieure();
+*partie_superieure();
+
 
 
 module partie_inferieure()
@@ -36,9 +37,9 @@ difference()
         translate ([22,43,0]) cube ([15,5,5.5]);  
         translate ([24.5,38.5,0]) cube ([10,0.1,5.5]);
     }      
-  translate ([29.5,38.5,0]) cylinder (d=10,h=5.5); 
+  translate ([29.5,38,0]) cylinder (d=10,h=5.5); 
   }
-translate ([29.5,38.5,0]) cylinder (d=2.3,h=6);  
+translate ([29.5,38,0]) cylinder (d=2.3,h=6);  
 } 
  
 //fixation coque
@@ -74,8 +75,8 @@ translate ([47.3,38.5,-0.1]) cylinder (d1=7,d2=3.2,h=2.5);
 translate ([24,-1,0]) cube ([12,10,3]);  
 
 }
-translate ([2.5,14,0]) cube ([3,19,11]);  
-translate ([53.5,14,0]) cube ([3,19,11]);
+translate ([2.5,15,0]) cube ([2.5,18,11]);  
+translate ([54,15,0]) cube ([2.5,18,11]);
 translate ([22,45,2]) cube ([15,3,9]);
 }
 
@@ -102,8 +103,8 @@ translate ([3,-1,7]) cube ([53,13.5,5]);
 
 }
 
-
-translate ([2.5,12.5,7.5]) cube ([54,1.5,7.5]);  
+translate ([2.5,12.5,9]) cube ([54,1.5,6]);  
+translate ([3.5,12.5,7.5]) cube ([52,1.5,7.5]);  
 
 
 //fixation coque
