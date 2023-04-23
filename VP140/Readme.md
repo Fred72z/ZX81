@@ -42,6 +42,7 @@ Les performances (modestes) de l'engin sont celles d'un ZX81 auquelles il ajoute
 -UART 9600 bauds RS232
 
 -UART 19200 bauds USB (ver 1.2)
+
 -Joystick type videopac
 
 -Clavier mécanique
